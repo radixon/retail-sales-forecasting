@@ -1,0 +1,14 @@
+# Environments
+venv/
+.env
+
+# Data
+data/raw
+data/processed/
+
+#Python Cache
+\_\_pycache\_\_/
+*.pyc
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
