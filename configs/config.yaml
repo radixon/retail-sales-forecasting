@@ -1,0 +1,15 @@
+# configs/config.yaml
+
+project_name: "retail_sales_forecasting"
+
+paths:
+  raw_data: "data/raw/amazon.csv"
+  processed_data: "data/processed"
+  model_save_dir: "models/saved_models/"
+  log_dir: "logs/"
+
+data_params:
+  target_column: "sales"
+  data_column: "data"
+  test_size: 0.2
+  random_state: 2026
