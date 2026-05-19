@@ -11,4 +11,5 @@ data/processed/
 *.pyc
 
 # Jupyter Notebook Checkpoints
-.ipynb_checkpoints/*.log
+.ipynb_checkpoints/
+*.log
