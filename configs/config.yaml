@@ -3,7 +3,7 @@
 project_name: "retail_sales_forecasting"
 
 paths:
-  raw_data: "data/raw/amazon.csv"
+  raw_data: "data/raw/amazon_products_sales_data.csv"
   processed_data: "data/processed"
   model_save_dir: "models/saved_models/"
   log_dir: "logs/"
