@@ -12,7 +12,7 @@ def get_logger(name):
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     
-    log_file = os.paht.join(log_dir, 'project_execution.log')
+    log_file = os.path.join(log_dir, 'project_execution.log')
 
     # Create logger
     logger = logging.getLogger(name)
